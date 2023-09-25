@@ -175,6 +175,15 @@ termination ===> termination.html
 file management ===> file-management.html
 file management annual tax details ====> file-management-tax-details.html
 
+------------------------------------------------------------------PHASE Four ------------------------------------------------------------
+
+===Surveys - In Estimations===
+survey dashboard ===> survey-summary.html
+Graphs, question and remaining table ===> questionnaire-survey.html
+All survey table ===> survey-templates.html
+Share Survey ===> share-survey.html
+
+All the dialogue boxes used in the design are placed in their respective files
 
 
 

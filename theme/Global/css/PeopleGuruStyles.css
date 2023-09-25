@@ -6671,6 +6671,32 @@ div.dashboard-btn:hover {
 .pg-survey-form .search-wrapper .filter-search {
   width: 255px;
 }
+.pg-creat-link {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 4px;
+  background: #095aa5;
+  padding: 10px 16px;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.pg-creat-link span {
+  margin-top: -3px;
+}
+.pg-creat-link:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+.pg-creat-link:focus {
+  color: #fff !important;
+  text-decoration: none;
+}
 .pg-survey-form .search-wrapper .form-select {
   width: unset;
 }
@@ -7000,6 +7026,72 @@ div.dashboard-btn:hover {
   flex-direction: column;
   flex: 1;
   overflow: auto;
+}
+/* delete modal */
+.pg-delete-modal.modal-dialog {
+  max-width: 656px !important;
+  width: 100%;
+}
+.pg-delete-modal .modal-header {
+  padding: 12px 24px;
+}
+.pg-delete-modal .pg-summary-icon {
+  border-radius: 28px;
+  border: 6px solid #fef3f2;
+  background: #fecdca;
+  padding: 11px;
+}
+.pg-delete-modal .modal-header .pg-summary-title {
+  /* margin-top: unset; */
+  border: unset;
+  padding: unset;
+  margin-left: 12px;
+  font-weight: 500;
+}
+.pg-delete-modal .modal-body {
+  padding: 0 24px 16px 24px;
+}
+.pg-delete-modal .pg-summary-title {
+  border-top: 1px solid #f1f2f2;
+  margin-bottom: unset;
+  padding-top: 16px;
+  font-weight: 700;
+}
+.pg-delete-modal .pg-summary-para {
+  border-top: unset !important;
+  padding: 16px 0 !important;
+  margin-top: unset;
+}
+.pg-delete-footer {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  padding: 24px;
+  padding-top: unset;
+}
+.pg-cancel-btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid #095aa5;
+  background: #fff;
+  color: #095aa5;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.pg-yes-btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background: #fee4e2;
+  color: #b42318;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  outline: none;
+  border: none;
 }
 .pg-points {
   position: fixed;
